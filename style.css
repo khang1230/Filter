@@ -1,0 +1,25 @@
+.header{
+    background-color: burlywood;
+    height: 15%;
+    padding-top: 25px;
+    font-weight: 800;
+    font-size: 38px;
+}
+
+canvas{
+    border: 10px ridge;
+    margin-top: 80px;
+    animation-name: color;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.save{
+    width: 23%;
+    font-size: 20px;
+}
+
+@keyframes color {
+    from{box-shadow: 10px 10px 100px rgb(6, 138, 138); }
+    to{box-shadow: 10px 10px 100px rgb(118, 79, 118);}
+}
